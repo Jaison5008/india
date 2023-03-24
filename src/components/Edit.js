@@ -15,7 +15,7 @@ function Edit({point ,update,emai}) {
   const [emails, setEmail]=useState(''); 
   const[TicketCount,setTictet]=useState('');
    
-  const ss=point.find((e,i)=> {return (e.email===emai)});
+  const ss=point.find((e)=> {return (e.email===emai)});
    const index=point.findIndex((e)=>e.email===emai)
 
 useEffect(()=>{ 

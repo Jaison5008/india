@@ -6,11 +6,7 @@ import './App.css'
 
  function Save({edit ,Spoint,deletes,Views}){  
     const history=useNavigate()  
-  const news =(el)=>{  
-    edit(el)
-    history('/Edit') ;
-    
-  }
+ 
    
 return( 
     <> 
@@ -28,7 +24,7 @@ return(
        
         <Button onClick={()=>deletes(ell.email)}>delete </Button> 
         <Button onClick={()=>Views(ell)} >view</Button>  
-        <Button onClick={()=>news(ell.email)}>edit</Button>  
+        <Button onClick={()=>{edit(ell.email); history('/Edit')}}>edit</Button>  
          
         
         </div>

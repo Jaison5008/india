@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react'; 
 import'./App'
 import { Button } from 'react-bootstrap';
-import  Base from './Base'
+import  Base from './Base' 
+import { useNavigate } from 'react-router-dom';
  function Home () {   
 
-
+const history=useNavigate();
 
 const [datas]=useState(Datas)
     
@@ -23,7 +24,7 @@ return(  <Base thead=' PRE BOOKING OPEN ' tstyle='headstyle' footer='foot'childr
           <Card.Text>
             {val.venu}  
           </Card.Text> 
-          <Button href='./Add'>Book</Button>
+          <Button onClick={()=>history('/Add')}>Book</Button>
         </Card.Body>
       </Card>)}
 
