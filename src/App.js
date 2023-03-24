@@ -9,13 +9,13 @@ import Add from './Add';
 import {   Routes, Route } from 'react-router-dom'; 
 import Save from './Save'; 
 import { useState } from 'react';
-import Init from './data/datass.js' ; 
+//import Init from './data/datass.js' ; 
 import View from './View'; 
 import { useNavigate } from 'react-router-dom'; 
 import Edit from './Edit';
 function App() {  
- const [point,setPoint]=useState(Init); 
- const [view,setView]=useState(['']);  
+ const [point,setPoint]=useState(''); 
+ const [view,setView]=useState([]);  
  const [email,setEmail]=useState('');
  const history=useNavigate()
   const adduser=(user)=>{   
