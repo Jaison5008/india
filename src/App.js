@@ -9,7 +9,7 @@ import Add from './Add';
 import {   Routes, Route } from 'react-router-dom'; 
 import Save from './Save'; 
 import { useState } from 'react';
-//import Init from './data/datass.js' ; 
+
 import View from './View'; 
 import { useNavigate } from 'react-router-dom'; 
 import Edit from './Edit';
