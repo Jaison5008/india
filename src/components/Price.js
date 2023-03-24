@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Price from './data/squaddata' 
+import Price from '../data/squaddata' 
 import './index.css' 
-import Base from './components/Base';
+import Base from './Base';
 function ListGroupWithHeaderExample() { 
     const [SSquad ]=useState(Price);
   return (   

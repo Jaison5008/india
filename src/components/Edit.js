@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row'; 
 import React from 'react'; 
 import { useNavigate } from 'react-router-dom';
-import Base from './components/Base';
+import Base from './Base';
 import './App.css'  
 //import { useParams } from 'react-router-dom'; 
 

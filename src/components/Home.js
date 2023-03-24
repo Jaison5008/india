@@ -1,10 +1,10 @@
-import Datas from './data/data'; 
+import Datas from '../data/data'; 
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { useState } from 'react'; 
 import'./App'
 import { Button } from 'react-bootstrap';
-import  Base from './components/Base'
+import  Base from './Base'
  function Home () {   
 
 

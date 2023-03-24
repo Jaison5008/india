@@ -1,7 +1,7 @@
 import './App.css'; 
-import Navbar from './components/navbar'
+import Navbar from './navbar'
 import Home from './Home'; 
-import Foot from './components/foot';
+import Foot from './foot';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Price from './Price';
 import Ground from './ground';

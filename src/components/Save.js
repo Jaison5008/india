@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";  
-import Base from "./components/Base";  
+import Base from "./Base";  
 import './App.css' 
 
  function Save({edit ,Spoint,deletes,Views}){  

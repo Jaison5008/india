@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
- import Base from "./components/Base"; 
+ import Base from "./Base"; 
  import './App.css'
  const View=({view})=>{  
     //console.log(props)  
