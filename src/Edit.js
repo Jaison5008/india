@@ -60,7 +60,7 @@ const jai={
       <Button variant="primary" type="submit" onClick={()=>{history('/Save');update(index,jai)}}  >
         UPDATE
       </Button></Form> 
-      </div> }>
+      </div>}>
       </Base>
    
   );

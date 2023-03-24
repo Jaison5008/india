@@ -13,7 +13,7 @@ const [datas]=useState(Datas)
     
 
 
-return(  <Base thead=' PRE BOOKING OPEN' tstyle='headstyle' footer='foot'children={
+return(  <Base thead=' PRE BOOKING OPEN ' tstyle='headstyle' footer='foot'children={
    <div className='Home'> 
 {datas.map((val,index)=> 
  < Card border="secondary" style={{width: '18rem',height:'12rem' }} key={index}>

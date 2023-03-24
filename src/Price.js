@@ -10,7 +10,7 @@ function ListGroupWithHeaderExample() {
     <Base thead=' PRICE CHAT' tstyle='headstyle' footer='foot2' children={
     <div className='Home'>
     {SSquad.map((data)=>
-    <Card style={{ width: '18rem', height:"16rem" }}>
+    <Card style={{ width: '18rem',height:"16rem" }}>
       <Card.Header>{data.team}</Card.Header>
       <ListGroup variant="flush">
         <ListGroup.Item>{data.p1}</ListGroup.Item>

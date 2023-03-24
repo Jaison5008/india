@@ -19,10 +19,10 @@ return(
        <div> <div className="bh"><Button onClick={()=>history('/Add')}>add</Button></div> 
 
         {Spoint.map((ell,index)=>{return (<div style={{margin:'5px 25px',borderRadius: '5px',display:'flex', 
-        justifyContent:'space-around', textAlign:'center', alignItems:'center',border:'1px solid blue', borderLeft:'5px solid blue'}} key={index}>  
+        justifyContent:'space-around',textAlign:'center', alignItems:'center',border:'1px solid blue', borderLeft:'5px solid blue'}} key={index}>  
        
         <div style={{fontWeight:'bold'}}>{(ell.email)} </div>
-        <div style={{fontWeight:'bold'}}>{(ell.password)} </div>
+        <div style={{fontWeight:'bold'}}>{(ell.password)}</div>
 
         <div style={{ margin:'20px 0',display:'flex' ,fontWeight:'bold', gap:'20px'}}>
        

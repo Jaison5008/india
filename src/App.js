@@ -54,7 +54,7 @@ history('./View')
     <div>  
       
     
-      <Navbar/>   
+    <Navbar/>   
       
       
       

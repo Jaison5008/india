@@ -14,8 +14,8 @@ return(
     <Button onClick={()=>history('/Add')}>add</Button> 
     </div>
     <div className="viewcard">
-  <h1>EMAIL   :{view.email}</h1>
-  <h1>Ticket  :{view.password }</h1>
+  <h1>EMAIL    :{view.email}</h1>
+  <h1>Ticket   :{view.password }</h1>
    </div> </div>}> 
    </Base>
    ) 
