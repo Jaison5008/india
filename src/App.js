@@ -63,7 +63,7 @@ history('./View')
         <Route exact path='/' Component={Home}/>
         <Route   path='/Add' element={<Add point={point} adduser={adduser}/>}/>
          <Route  path='/ground'Component={Ground}/>
-         <Route path='/Save' element={<Save point={point} deletes={deletes} Views={Views} edit={edit} />}/> 
+         <Route path='/Save' element={<Save Spoint={point} deletes={deletes} Views={Views} edit={edit} />}/> 
          <Route path='/Edit' element={<Edit point={point} emai={email} update={update}/>}/>
          <Route  path='/Price' Component={Price}/>
         <Route path='/View' element={<View view={view}/>}/>

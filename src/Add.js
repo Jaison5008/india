@@ -12,7 +12,7 @@ import './App.css'
 function GridComplexExample(props) {   
   const history=useNavigate()
   const [email, setEmail]=useState(''); 
-  const[password,setPassword]=useState();
+  const[password,setPassword]=useState('');
   const add={ 
     email, 
     password
@@ -49,7 +49,7 @@ function GridComplexExample(props) {
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Ticket Count</Form.Label>
-          <Form.Control type="number" placeholder="Ticket Count" name='password'value={password} onChange={(e)=>setPassword(e.target.value)}/>
+          <Form.Control type="text" placeholder="Ticket Count" name='password'value={password} onChange={(e)=>setPassword(e.target.value)}/>
         </Form.Group>
       </Row> 
       

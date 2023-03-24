@@ -13,7 +13,7 @@ import './App.css'
 function Edit({point ,update,emai}) {   
   const history=useNavigate()
   const [emails, setEmail]=useState(''); 
-  const[TicketCount,setTictet]=useState();
+  const[TicketCount,setTictet]=useState('');
    
   const ss=point.find((e,i)=> {return (e.email===emai)});
    const index=point.findIndex((e)=>e.email===emai)
@@ -21,16 +21,16 @@ function Edit({point ,update,emai}) {
 useEffect(()=>{ 
   setEmail(ss.email); 
 
-  setTictet(ss.password);
+  setTictet(ss.password); 
+  
 },[ss.email,ss.password]) 
 
-
-  const jai={ 
-    email:emails,
-    password:TicketCount
-  }  
+const jai={ 
+  email:emails,
+  password:TicketCount
+}  
  
-
+ 
 
   return (  
     
@@ -52,7 +52,7 @@ useEffect(()=>{
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Ticket Count</Form.Label>
-          <Form.Control type="number" placeholder="TicketCount" name='TicketCount'value={TicketCount} onChange={(e)=>setTictet(e.target.value)}/>
+          <Form.Control type="text" placeholder="TicketCount" name='TicketCount'value={TicketCount} onChange={(e)=>setTictet(e.target.value)}/>
         </Form.Group>
       </Row> 
       
