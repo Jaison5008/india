@@ -21,8 +21,8 @@ function Edit({point ,update,emai}) {
 useEffect(()=>{ 
   setEmail(ss.email); 
 
-  setTictet(ss.password)
-},[]) 
+  setTictet(ss.password);
+},[ss.email,ss.password]) 
 
 
   const jai={ 

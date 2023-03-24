@@ -9,7 +9,7 @@ import  Base from './components/Base'
 
 
 
-const [datas,setData]=useState(Datas)
+const [datas]=useState(Datas)
     
 
 

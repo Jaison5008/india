@@ -5,7 +5,7 @@ import Price from './data/squaddata'
 import './index.css' 
 import Base from './components/Base';
 function ListGroupWithHeaderExample() { 
-    const [SSquad ,setSquad]=useState(Price);
+    const [SSquad ]=useState(Price);
   return (   
     <Base thead=' PRICE CHAT' tstyle='headstyle' footer='foot2' children={
     <div className='Home'>

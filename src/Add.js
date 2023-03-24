@@ -12,7 +12,7 @@ import './App.css'
 function GridComplexExample(props) {   
   const history=useNavigate()
   const [email, setEmail]=useState(''); 
-  const[password,setPassword]=useState('');
+  const[password,setPassword]=useState();
   const add={ 
     email, 
     password
