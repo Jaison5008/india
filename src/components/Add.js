@@ -19,7 +19,7 @@ function GridComplexExample(props) {
    }
    
     const su=(e)=>{   
-       e.preventDefault()
+       
      
     props.adduser(add); 
 
