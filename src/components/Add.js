@@ -18,10 +18,10 @@ function GridComplexExample(props) {
     password
    }
    
-    const su=(e)=>{   
+    const Add=(e)=>{   
        
      
-    props.adduser(add); 
+    props.adduser(Add); 
 
    history('/Save');
 
@@ -54,7 +54,7 @@ function GridComplexExample(props) {
       </Row> 
       
 
-      <Button variant="primary"type="submit" onClick={su}>
+      <Button variant="primary"type="submit" onClick={Add}>
         Submit
       </Button></Form> 
       </div> }>

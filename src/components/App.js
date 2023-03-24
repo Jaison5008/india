@@ -43,7 +43,7 @@ const Views=(el)=>{
 
 setView(el) 
  
-history('./View')
+history('/View')
 }  
 
 
