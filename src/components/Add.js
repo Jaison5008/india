@@ -13,15 +13,15 @@ function GridComplexExample(props) {
   const history=useNavigate()
   const [email, setEmail]=useState(''); 
   const[password,setPassword]=useState('');
-  const add={ 
+  const additem={ 
     email, 
-    password
+    password,
    }
    
     const Add=(e)=>{   
        
      
-    props.adduser(Add); 
+    props.adduser(additem); 
 
    history('/Save');
 
@@ -38,7 +38,7 @@ function GridComplexExample(props) {
     <Base thead='ADD CONTECTS' tstyle='headstyle'footer='foot' children={
     <div className='Home2'>  
     <div className='bh'>
-    <Button   onClick={()=>history('/Save')} >SAVE</Button> 
+    <Button   onClick={()=>history('/Save')}>SAVEE</Button> 
     </div>
     <Form > 
       <Row className="mb-1">
