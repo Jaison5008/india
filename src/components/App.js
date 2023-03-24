@@ -9,12 +9,12 @@ import Add from './Add';
 import {   Routes, Route } from 'react-router-dom'; 
 import Save from './Save'; 
 import { useState } from 'react';
-
+import Data from '../data/newdata.js';
 import View from './View'; 
 import { useNavigate } from 'react-router-dom'; 
 import Edit from './Edit';
 function App() {  
- const [point,setPoint]=useState(''); 
+ const [point,setPoint]=useState(Data); 
  const [view,setView]=useState([]);  
  const [email,setEmail]=useState('');
  const history=useNavigate()
